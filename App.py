@@ -82,7 +82,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load Keras model safely using tensorflow.keras
 try:
-    model = load_model("./weights/keras_model.h5", compile=False)
+    model = load_model("keras_model.h5", compile=False)
 except Exception as e:
     st.error(f"❌ Error loading model: {e}")
     st.stop()
