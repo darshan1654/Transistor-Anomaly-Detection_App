@@ -124,11 +124,6 @@ st.markdown("""<hr style="margin-top: 3rem; margin-bottom: 1rem;">""", unsafe_al
 
 st.markdown("""
     <div style='text-align: center; font-size: 0.9em; color: grey;'>
-        👨‍💻 Developed by <a href='https://github.com/darshan1654/Delivery-Time-Prediction-App' target='_blank'>Darshan Pardeshi</a>
+        👨‍💻 Developed by <a href='https://github.com/darshan1654/Transistor-Anomaly-Detection_App' target='_blank'>Darshan Pardeshi</a>
     </div>
 """, unsafe_allow_html=True)
-
-
-# Footer
-st.markdown("---")
-st.markdown("👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)")
