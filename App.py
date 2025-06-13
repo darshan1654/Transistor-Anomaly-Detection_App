@@ -34,9 +34,9 @@ with st.sidebar:
     img_resized = img.resize((150, 150))
     st.image(img_resized)  
     
-    st.header("📌 About InspectorsAlly")
+    st.header("📌 About App: ")
     st.markdown("""
-    InspectorsAlly is a powerful AI-powered application designed to help businesses and engineers streamline quality control for **Transistor Circuit Inspections**.
+    Transistor Anomaly Detection APp is a powerful AI-powered application designed to help businesses and engineers streamline quality control for **Transistor Circuit Inspections**.
 
     This app uses deep learning and computer vision to **Automatically classify Transistor circuit images** as:
     - ✅ Good
@@ -121,7 +121,6 @@ if submit:
 
 # Footer
 st.markdown("""<hr style="margin-top: 3rem; margin-bottom: 1rem;">""", unsafe_allow_html=True)
-
 st.markdown("""
     <div style='text-align: center; font-size: 0.9em; color: grey;'>
         👨‍💻 Developed by <a href='https://github.com/darshan1654/Transistor-Anomaly-Detection_App' target='_blank'>Darshan Pardeshi</a>
