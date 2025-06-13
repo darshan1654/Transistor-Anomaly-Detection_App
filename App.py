@@ -122,7 +122,7 @@ if submit:
 st.markdown("""
     <hr>
     <div style='text-align: center; font-size: 0.9em; color: grey;'>
-        Developed by <b>InspectorsAlly Team</b> | © 2025
+        👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)
     </div>
 """, unsafe_allow_html=True)
 
