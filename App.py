@@ -128,4 +128,4 @@ st.markdown("""
 
 # Footer
 st.markdown("---")
-st.markdown("👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)")
+st.markdown(<div style='text-align: center;"👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)" </div>)
