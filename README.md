@@ -50,33 +50,6 @@ The **Transistor Anomaly Detection App** is built to help engineers and quality 
 
 ---
 
-## 📁 Project Structure
-
-Transistor-Anomaly-Detection_App/
-│
-├── .devcontainer/
-│ └── devcontainer.json
-│
-├── .streamlit/
-│ └── config.toml
-│
-├── images/
-│ ├── AI_Project_Cycle.jpg
-│ ├── model_inference_pipeline.png
-│ ├── model_train_pipeline.png
-│ ├── overview_dataset.jpg
-│ └── transistor2.png
-│
-├── App.py # Main Streamlit application
-├── keras_model.h5 # Trained classification model
-├── labels.txt # Class labels
-├── packages.txt # Required packages
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore
-
----
-
 ## ✅ How to Run Locally
 
 1. Clone the repo:
@@ -101,7 +74,6 @@ This app showcases how deep learning and computer vision can automate visual ins
 
 ## 🙌 Acknowledgements
 - Google Teachable Machine
+- Mvtec Datasets
 - Streamlit Community
-- OpenAI for guidance
-
-
+- Intel AI
