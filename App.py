@@ -118,3 +118,10 @@ if submit:
             st.write(prediction)
     else:
         st.warning("Please provide an image before submitting.")
+
+st.markdown("""
+    <hr>
+    <div style='text-align: center; font-size: 0.9em; color: grey;'>
+        Developed by <b>InspectorsAlly Team</b> | © 2025
+    </div>
+""", unsafe_allow_html=True)
