@@ -101,9 +101,9 @@ def Anomaly_Detection(image):
     predicted_class = class_names[predicted_class_index]
 
     if predicted_class == "Good":
-        return "✅ Congratulations! Transistor is classified as **Good** with no anomalies."
+        return "✅ Congratulations! Transistor is classified as Good with no anomalies."
     else:
-        return "⚠️ Alert! An **Anomaly** has been detected in the Transistor."
+        return "⚠️ Alert! An Anomaly has been detected in the Transistor."
 
 # Prediction Trigger
 submit = st.button(label="Submit for Inspection")
@@ -113,9 +113,12 @@ if submit:
     img_file = uploaded_file_img if input_method == "📁 File Uploader" else camera_file_img
 
     if img_file is not None:
-        with st.spinner("Inspecting image... Please wait"):
+        with st.spinner("Inspecting the Transistor image..."):
             prediction = Anomaly_Detection(img_file)
-            st.write(prediction)
+            if "Anomaly" in prediction:
+                st.error(prediction)
+            else:
+                st.success(prediction)
     else:
         st.warning("Please provide an image before submitting.")
 
