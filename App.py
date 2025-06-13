@@ -125,3 +125,7 @@ st.markdown("""
         Developed by <b>InspectorsAlly Team</b> | © 2025
     </div>
 """, unsafe_allow_html=True)
+
+# Footer
+st.markdown("---")
+st.markdown("👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)")
