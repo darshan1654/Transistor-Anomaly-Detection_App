@@ -30,7 +30,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    img = Image.open("./docs/transistor2.png")
+    img = Image.open("./images/transistor2.png")
     img_resized = img.resize((150, 150))
     st.image(img_resized)  
     
