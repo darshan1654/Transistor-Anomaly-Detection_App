@@ -51,6 +51,7 @@ The **Transistor Anomaly Detection App** is built to help engineers and quality 
 ---
 
 ## 📁 Project Structure
+```bash
 Transistor-Anomaly-Detection_App/
 │
 ├── .devcontainer/
@@ -84,9 +85,11 @@ Transistor-Anomaly-Detection_App/
    cd Transistor-Anomaly-Detection_App
 
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
 3. Run the App:
+   ```bash
    streamlit run App.py
 
 ---
