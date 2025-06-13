@@ -119,13 +119,16 @@ if submit:
     else:
         st.warning("Please provide an image before submitting.")
 
+# Footer
+st.markdown("""<hr style="margin-top: 3rem; margin-bottom: 1rem;">""", unsafe_allow_html=True)
+
 st.markdown("""
-    <hr>
     <div style='text-align: center; font-size: 0.9em; color: grey;'>
-        👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)
+        👨‍💻 Developed by <a href='https://github.com/darshan1654/Delivery-Time-Prediction-App' target='_blank'>Darshan Pardeshi</a>
     </div>
 """, unsafe_allow_html=True)
 
+
 # Footer
 st.markdown("---")
-st.markdown(<div style='text-align: center;"👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)" </div>)
+st.markdown("👨‍💻 Developed by [Darshan Pardeshi](https://github.com/darshan1654/Delivery-Time-Prediction-App)")
