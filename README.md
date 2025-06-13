@@ -51,7 +51,7 @@ The **Transistor Anomaly Detection App** is built to help engineers and quality 
 ---
 
 ## 📁 Project Structure
-```bash
+
 Transistor-Anomaly-Detection_App/
 │
 ├── .devcontainer/
